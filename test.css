@@ -1,0 +1,42 @@
+
+h2{
+    color: blue;
+}
+p{
+    background-color: bisque;
+}
+/*class selector*/
+.bent-element {
+    font-style: italic;
+    background-color: aliceblue;
+}
+/*id selector*/
+#special {color: red;
+}
+/* pseudo class selectors -used to define special states 
+that can't be targeted usimg simple selectors denoted 
+by a full colon after a simple selector*/
+#name{
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+#name:hover {
+    background-color: aliceblue;
+    color: navy;
+
+    
+}
+#name:active{
+    transform: scale(0.9);
+}
+/*last-child, first child . nth-child*/
+li:first-child {
+    border:2px solid red
+}
+li:last-child {
+    border: 2px solid green;
+}
+li:nth-child(3) {
+    border: 2px solid orange;
+}

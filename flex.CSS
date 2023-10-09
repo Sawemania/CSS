@@ -1,0 +1,46 @@
+body {
+    color: red;
+
+}
+button {
+    color:orange
+}
+body {
+    color: green;
+}
+.shop {
+    color: blue;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.item {
+    width: 80%;
+}
+@media (min-width:450px){
+    .item{
+        width: 40%;
+    }
+    body{
+        background-color: black;
+    }
+
+}
+@media (min-width: 700px) {
+    .item{
+        width: 30%;
+    }
+    body{
+        background-color: beige;
+    }
+}
+@media (min-width: 1000px) {
+    .item{
+        width: 22%;
+    }
+    body{
+        background-color: orange;
+    }
+}
+

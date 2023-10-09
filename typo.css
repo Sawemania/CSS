@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "custom-font";
+    src: url("PlayfairDisplay-Regular.ttf");
+}
+h1{
+    font-family: "custom-font", Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    line-height: 50px;
+    letter-spacing: 10px;
+}
+li{
+    word-spacing: 40px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}

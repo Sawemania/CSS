@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="background-color: blue;text-indent: 0cm;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where to write CSS</title>
+    <style>
+        h2{text-decoration: underline;}
+        h1{text-align: center;}
+    </style>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <h1>We can place our CSS in three different areas</h1>
+    <ul>
+        <li>
+            <h2 class="smthng">Inline CSS</h2>
+            <p style="color: green; font-size: 20px;">Writing CSS as a value of
+                 the style attribute for each element</p>
+        </li>
+        <li>
+            <h2>Internal CSS</h2>
+            <P>Writing CSS within a style element. Normaly placed within the head element</P>
+            <style>
+                h2{text-decoration: underline;}
+            </style>
+        </li>
+        <li>
+            <h2>External CSS</h2>
+            <P>Writing CSS in an external .css file. This is the most prefered way because of
+                 separation of concern (separating content from presentation) and the ability 
+                 to use the same set of styles across multiple pages.</P>
+
+        </li>
+    </ul>
+</body>
+</html>
