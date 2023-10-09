@@ -1,5 +1,10 @@
 /*by default all elements are positioned statically on our page (i.e. position static;) */
 /*other options are position fixed, sticky, relative, absolute*/
+body{
+    background-color: black;
+    color: white;
+}
+
 #call-me {
     position:fixed;/*
     top: 200px;allow us to osition an element in te==relation to the screen*/
